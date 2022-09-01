@@ -15,12 +15,14 @@
   <main>
 
   <!-- Rating state start -->
-    
+    <div id="box1">
     <div class="star"><img src="images/icon-star.svg" alt="star icon"></div>
   <h1>How did we do?</h1>
 
   <p>Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
+
+  <p id="error-msg" class="error-msg d-none">Please select a score!</p>
 
   <div class="small-btn-container">
   <button type="button" class="small-btn">1</button>
@@ -30,9 +32,19 @@
   <button type="button" class="small-btn">5</button>
   </div>
 
-  <button type="button" class="main-btn">Submit</button>
+  <button id="submit" type="button" class="main-btn">Submit</button>
+</div>
 
   <!-- Rating state end -->
+
+  <div id="box2" class="d-none">
+      <img src="./images/illustration-thank-you.svg" alt="">
+      <div id="selection-msg" class="selection-msg">You selected 4 out of 5</div>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+  </div>
+</div>
 
   </main>
 
@@ -41,5 +53,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://veronisab.github.io">Veronisab</a>.
   </div> -->
+  <script src="./script.js"></script>
 </body>
 </html>

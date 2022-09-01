@@ -18,10 +18,15 @@ main {
 
 h1 {
     color: #fff;
+    font-size: 1.7em;
 }
 
 p {
     line-height: 1.8em;
+}
+
+.d-none {
+    display: none;
 }
 
 .star {

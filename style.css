@@ -1,0 +1,95 @@
+body {
+    font-size: 15px;
+    font-family: Overpass, sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    color:hsl(217, 12%, 63%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #20262f;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 85%;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    line-height: 1.8em;
+}
+
+.star {
+    background-color: hsl(213, 19%, 18%);
+    width: 3.5em;
+    height: 3.5em;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+}
+
+button {
+    border: 0;
+    padding: 12px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-family: inherit;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.small-btn-container {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+-ms-flex-pack: justify;
+justify-content: space-between;
+}
+
+.small-btn {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    display: inline-block;
+    width: 3.5em;
+    height: 3.5em;
+    color: #aaa;
+}
+
+.small-btn:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.small-btn .selected {
+    background: #fb7413;
+    color: white;
+  }
+
+.main-btn {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    display: block;
+    border-radius: 50px;
+}
+
+.main-btn:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);;
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        width: 400px;
+    }
+}

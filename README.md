@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://veronisab.github.io/interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://github.com/veronisab/interactive-rating-component)
+- Solution URL: [github link](https://veronisab.github.io/interactive-rating-component)
+- Live Site URL: [github link](https://github.com/veronisab/interactive-rating-component)
 
 ## My process
 

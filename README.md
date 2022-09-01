@@ -20,7 +20,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github link](https://github.com/veronisab/interactive-rating-component)
-- Live Site URL: [github link](https://veronisb.github.io/interactive-rating-component)
+- Live Site URL: [github link](https://veronisab.github.io/interactive-rating-component/)
 
 ## My process
 

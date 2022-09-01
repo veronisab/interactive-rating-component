@@ -107,6 +107,6 @@ justify-content: space-between;
 
 @media screen and (min-width: 600px) {
     main {
-        width: 400px;
+        width: 350px;
     }
 }

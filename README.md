@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/veronisab/interactive-rating-component/blob/6dac5820c0cc7a63d9d0ec28e95546314a1b6fe5/Screenshot%202022-09-01%20at%2012.43.56.jpg)
 
 ### Links
 
